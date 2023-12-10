@@ -1,0 +1,39 @@
+@font-face {
+    font-family: FiraSans;
+    src: url(F/FiraSans-Thin.ttf);
+}
+*{
+    font-family: FiraSans, Calibiri, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    align-items: center;
+    height: 6.5rem;
+    flex-wrap: wrap;
+}
+h1{
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type:none;
+    margin-right: 2.5rem;
+}
+nav ul li a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    padding: 0.45rem;
+}
+nav ul li a:hover{
+    border-color: grey;
+    border-bottom: 2.5px solid;
+
+}
