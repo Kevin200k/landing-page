@@ -53,16 +53,23 @@ nav ul li a:hover{
 }
 .sub{
     display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-top: 1.3px white solid;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .main{
     height: 50vh;
     width: auto;
-    background-color:black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color:black;
-    border-top: 1.3px white solid ;
     flex-wrap: wrap;
     margin: 0;
 }
@@ -103,8 +110,10 @@ img{
     height: 25rem;
     border-radius: 15px;
 }
+img:hover{
+    transform: scale(1.01);
+}
 .image{
-    border-top: 1.3px solid white;
     width: auto;
     min-height: 50vh;
     background-color: black;
@@ -153,4 +162,18 @@ img{
 }
 .four:hover{
     transform: scale(1.01);
+}
+#info{
+    color: white;
+    font-family: FiraSans-Light;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.inf{
+    margin-top:0px;
+    background-color: black;
+    border-top: 1.3px solid white;
+    text-align: center;
+
 }
