@@ -2,12 +2,16 @@
     font-family: FiraSans;
     src: url(F/FiraSans-Thin.ttf);
 }
+@font-face {
+    font-family: FiraSans-Light;
+    src: url(F/FiraSans-Light.ttf);
+}
 *{
     font-family: FiraSans, Calibiri, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0px;
 }
-div{
+.header{
     display: flex;
     justify-content: space-between;
     color: white;
@@ -36,4 +40,46 @@ nav ul li a:hover{
     border-color: grey;
     border-bottom: 2.5px solid;
 
+}
+.main{
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    margin: 1.23rem;
+    border-radius: 20px;
+}
+.main:hover{
+   background-color: black;
+   transform: scale(1.0001);
+}
+.page{
+    color: white;
+    font-size: 3.5rem;
+    font-family: FiraSans-Light;
+}
+#subtitle{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.submit{
+    align-self: flex-end;
+    font-family: FiraSans-Light;
+    padding: 1rem;
+    border-color: none;
+    border-radius: 18px;
+    box-shadow: none;
+    margin-top: 15px;
+    color: grey;
+    font-weight:bolder;
+    border: 0px;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
 }
